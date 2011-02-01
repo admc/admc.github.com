@@ -8,7 +8,24 @@
   <meta name="author" content="Adam Christian">
   <!-- Date: 2011-02-01 -->
   <style type="text/css" media="screen">
-   a { color:white; }
+  @font-face {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Crimson Text'), local('CrimsonText-Roman'), url('http://themes.googleusercontent.com/font?kit=3IFMwfRa07i-auYR-B-zNYnF5uFdDttMLvmWuJdhhgs') format('truetype');
+  }
+  html {
+    background:black;
+    font-family:Crimson Text;
+  }
+  body {
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);
+    -moz-text-stroke: 1px rgba(0, 0, 0, 0.1);
+  }
+   a {
+     color: #78C5B4;
+     text-decoration: none;
+   }
   </style>
 </head>
 <body style="background:black;color:white;">
