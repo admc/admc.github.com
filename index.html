@@ -37,9 +37,49 @@
       <a href="http://www.adamchristian.com">Blog</a> -
       <a href="https://github.com/admc/resume">Resume</a>
     </span>
+    <hr style="width:50%;">
     <br><br>
-    <img src="win.gif" style="width:50%;">
-    <div>I ruled in 1998...</div>
+    <table>
+      <tr>
+        <td style="border-right:1px solid #8C8C8C" align=center>
+          <img src="win.gif" style="width:70%;">
+          <div>I ruled in 1998...</div>
+        </td>
+        <td style="padding:20px">
+          <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script>
+          new TWTR.Widget({
+            version: 2,
+            type: 'profile',
+            rpp: 4,
+            interval: 6000,
+            width: 250,
+            height: 300,
+            theme: {
+              shell: {
+                background: '#333333',
+                color: '#ffffff'
+              },
+              tweets: {
+                background: '#000000',
+                color: '#ffffff',
+                links: '#78c5b4'
+              }
+            },
+            features: {
+              scrollbar: true,
+              loop: false,
+              live: true,
+              hashtags: true,
+              timestamp: true,
+              avatars: true,
+              behavior: 'all'
+            }
+          }).render().setUser('admc').start();
+          </script>
+        </td>
+      </tr>
+    <table>
 
   </center>
 </body>
