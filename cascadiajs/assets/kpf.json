@@ -169,7 +169,7 @@
 ,
 "title":"Cascadia-JS-2012",
 "minorVersion":4,
-"timestamp":"2012-11-08 18:20:13",
+"timestamp":"2012-11-09 14:18:50",
 "slideWidth":1024,
 "eventTimelines":[{"automaticPlay":false,
 "hyperlinks":[]
@@ -240,6 +240,12 @@
 "height":57}
 ,
 "text":"github.com/admc/wild"}
+,{"targetRectangle":{"y":707.5,
+"width":228.2812,
+"x":397.5396,
+"height":36}
+,
+"text":"admc.io/cascadiajs"}
 ]
 }
 ,{"automaticPlay":false,
@@ -310,7 +316,7 @@
 "x":52,
 "height":461.9889}
 ,
-"text":"From the Northwest! (Bellingham)\nOSAF 2007, released Windmill Project\nSlide 2008, released WatiN, FlexPilot\nMozilla 2009, released MozMill\nSauce Labs 2010 - 2012\nSe Builder, FlexPilot\nJellyfish, WD"}
+"text":"From the Northwest! (Bellingham)\nOSAF 2007, released Windmill Project\nSlide 2008, released WatiN, FlexPilot\nMozilla 2009, released MozMill\nSauce Labs 2010 - current\nSe Builder, FlexPilot\nJellyfish, WD"}
 ]
 }
 ,{"automaticPlay":false,
@@ -781,11 +787,11 @@
 ,
 "text":"measured how long it took to forget and then relearn"}
 ,{"targetRectangle":{"y":364,
-"width":219,
+"width":269,
 "x":125,
 "height":43}
 ,
-"text":"then again 2 years later"}
+"text":"then tried again 2 years later"}
 ,{"targetRectangle":{"y":406,
 "width":570,
 "x":125,
@@ -1042,47 +1048,47 @@
 ]
 ,
 "textRegions":[{"targetRectangle":{"y":73,
-"width":288,
-"x":368,
+"width":436,
+"x":294,
 "height":82}
 ,
-"text":"Process"}
+"text":"OSS Process"}
 ,{"targetRectangle":{"y":216,
-"width":103,
+"width":609,
 "x":88,
 "height":65}
 ,
-"text":"Github"}
+"text":"A barrier (I don’t have a lot of free time)"}
 ,{"targetRectangle":{"y":280,
+"width":356,
+"x":88,
+"height":65}
+,
+"text":"Github - Push or Merge"}
+,{"targetRectangle":{"y":345,
 "width":550,
 "x":88,
 "height":65}
 ,
 "text":"CI / CD - Strider-cd.org (self hosted)"}
-,{"targetRectangle":{"y":345,
+,{"targetRectangle":{"y":409,
 "width":467,
 "x":88,
 "height":65}
 ,
 "text":"Mocha/WD.js - Functional Tests"}
-,{"targetRectangle":{"y":409,
+,{"targetRectangle":{"y":474,
 "width":363,
 "x":88,
 "height":65}
 ,
 "text":"Sauce Labs - WebDriver"}
-,{"targetRectangle":{"y":474,
+,{"targetRectangle":{"y":538,
 "width":593,
 "x":88,
 "height":65}
 ,
 "text":"Heroku/Nodejitsu (Both are awesome!)"}
-,{"targetRectangle":{"y":538,
-"width":310,
-"x":88,
-"height":65}
-,
-"text":"Iriscouch/ Transloadit"}
 ]
 }
 ,{"automaticPlay":false,
@@ -1318,8 +1324,14 @@
 }
 ,{"automaticPlay":false,
 "hyperlinks":[{"url":"http://couchdb.apache.org/",
+"targetRectangle":{"y":585,
+"width":177,
+"x":43,
+"height":20}
+}
+,{"url":"http://couchdb.apache.org/",
 "targetRectangle":{"y":565,
-"width":185,
+"width":192,
 "x":43,
 "height":20}
 }
@@ -1583,6 +1595,12 @@
 "height":20}
 ,
 "text":"http://www.iriscouch.com/"}
+,{"targetRectangle":{"y":585,
+"width":177,
+"x":43,
+"height":20}
+,
+"text":"http://www.strider-cd.org"}
 ,{"targetRectangle":{"y":430,
 "width":467.4316,
 "x":429,
